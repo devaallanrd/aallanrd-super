@@ -524,10 +524,10 @@ header {
 
 .tweets {
 	margin-top:35px;
-	background-color:#16A085;
+	background-color:#e0e0e0;
 	border-radius:6px;
 	padding:7px 0;
-	color:#FFFFFF;
+	color:black;
 	height:135px;
 }
 
@@ -1067,10 +1067,17 @@ blockquote footer {
 }
 
 #pricing .btn-wrapper {
+	color: black;
 	background-color:#e0e0e0;
 	padding:15px 0;
 	border-radius:0 0 5px 5px;
 }
+#pricing .btn-wrapper h2{
+	color: black;
+
+}
+
+
 
 #pricing .btn {
 	padding:7px 30px;
