@@ -79,10 +79,8 @@
 <!-- ==========================
     HEADER - START
 =========================== -->
-
 <header>
-
-    <nav class="navbar navbar-default navbar-fixed-top navbar-hide" >
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -94,8 +92,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="myNavigation">
 
-                <ul class="nav navbar-nav navbar-left  ">
+                <ul class="nav navbar-nav navbar-left animated flipInX">
                     <li><a href="#about" class="scroll">Acerca De Mi</a></li>
+                    <li><a href="#services" class="scroll">Que hago</a></li>
                     <li><a href="#references" class="scroll">Referencias</a></li>
                     <li><a href="#pricing" class="scroll">Plan</a></li>
                     <li><a href="#contact" class="scroll">Contacto</a></li>
@@ -104,8 +103,9 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav>
+
     <div class="jumbotron">
-        <img src="index_files/img/allan.jpg" class="img-responsive scrollpoint sp-effect3" alt="" />
+          <img src="index_files/img/allan.jpg" class="img-responsive scrollpoint sp-effect3" alt="" />
         <div class="social-wrapper">
             <ul class="brands brands-inline hidden-xs scrollpoint sp-effect1">
                 <li><a href="https://facebook.com/aallanrd.2" target="_blank"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>
@@ -155,10 +155,9 @@
 
             <div class="col-md-5 col-sm-4 scrollpoint sp-effect1"><!-- Profile description -->
                 <h3>Allan Rojas</h3>
-
                 <p>Soy un desarrollador de aplicaciones tecnológicas  con
                     6 años de estudio de las Ciencias en Computación en el ITCR, con sede en Cartago, Costa Rica.
-                    <br><br> Estoy muy centrado en la modularidad y fácilidad de
+                   <br><br> Estoy muy centrado en la modularidad y fácilidad de
                     mantenimiento y presto gran atención a los detalles de los que depende su empresa. <br><br>
                     Mi colección de herramientas, lenguajes y componentes modernos, junto con mi experiencia como desarrollador me permite cuidar de un proyecto desde el concepto y el planamiento,
                     a través de la ejecución y entrega de resultados.</p>
@@ -172,9 +171,9 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <br>
-                                        <i class="fa fa-heart-o pull-left "></i>
+                                      <i class="fa fa-heart-o pull-left "></i>
                                         Hijo de Marixa y Alberto<br>Nací en <b>San Carlos, Costa Rica:</b>
-                                        <br> Mi infancia y adolescencia en Sucre <br>
+                                       <br> Mi infancia y adolescencia en Sucre <br>
 
                                     </div>
                                     <div class="item ">
@@ -252,94 +251,149 @@
     ABOUT - END
 =========================== -->
 
+<section id="services" class="content-second">
+    <div class="container">
+        <h2 class="scrollpoint sp-effect3">Lo que hago</h2>
+        <p class="scrollpoint sp-effect3">Cosas en la computadora que mejoran su negocio, sus conversiones y sus clientes.</p>
+        <div class="row">
 
+            <div class="col-sm-4 scrollpoint sp-effect3"><!-- PRICING TABLE FIRST - start -->
+                <div class="pricing-table "><!-- Pricing table - start -->
+                    <div class="btn-wrapper" >
+                        <h2 >PaaS</h2>
+                        <p >
+                            Plataforma como Servicio
+                        </p>
+                        <a class="btn btn-primary">Ver más</a>
+                    </div>
+                </div><!-- Pricing table - end-->
+            </div><!-- COL-SM-4 - end -->
+
+            <!-- PRICING TABLE FIRST - start -->
+            <div class="col-sm-4 scrollpoint sp-effect1"><!-- PRICING TABLE FIRST - start -->
+                <div class="pricing-table "><!-- Pricing table - start -->
+                     <div class="btn-wrapper">
+                        <h2 >IaaS</h2>
+                        <p >
+                           Infraestructura como Servicio
+                        </p>
+                        <a class="btn btn-primary">Ver más</a>
+                    </div>
+                </div><!-- Pricing table - end-->
+            </div><!-- COL-SM-4 - end -->
+
+
+
+            <div class="col-sm-4 scrollpoint sp-effect2"><!-- PRICING TABLE FIRST - start -->
+                <div class="pricing-table active"><!-- Pricing table - start -->
+                    <div class="pricing-table "><!-- Pricing table - start -->
+                        <div class="btn-wrapper">
+                            <h2>SaaS</h2>
+                            <p >
+                                Software como Servicio
+                            </p>
+                            <a class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div><!-- Pricing table - end-->
+
+                </div><!-- Pricing table - end-->
+            </div><!-- COL-SM-4 - end -->
+
+        </div>
+    </div>
+</section>
 
 <!-- ==========================
-    REFERENCE - START
+    NUMBERS - START
 =========================== -->
-<div id="references" class="content-second">
-    <br><br>
-    <h2 class="scrollpoint sp-effect3">Referencias</h2>
-    <p class="scrollpoint sp-effect3">Algunas referencias del aprendizaje y técnicas para las soluciones <br>
-        que realizamos en pequeñas y medianas empresas.</p>
-    <ul class="grid cs-style-4">
-        <li onclick="only('CRM','Todavia no disponible')">
-            <figure class="scrollpoint sp-effect1">
-                <div><img src="index_files/img/ref1.png" alt="img04"></div>
-                <figcaption>
-                    <h3>CRM</h3>
-                    <p style="color: white"> Administración de la Relación con Clientes</p>
-                    <a href="#"> Aprender </a>
-                </figcaption>
-            </figure>
-        </li>
-
-        <li onclick="only('Portales','Todavia no disponible')">
-            <figure class="scrollpoint sp-effect3">
-                <div><img src="index_files/img/ref2.png" alt="img04"></div>
-                <figcaption>
-                    <h3>Portales</h3>
-                    <p style="color: white"> Comunicación y colaboración en su empresa</p>
-                    <a href="#"> Aprender </a>
-                </figcaption>
-            </figure>
-        </li>
-
-        <li onclick="only('MiddleWare','Todavia no disponible')">
-            <figure class="scrollpoint sp-effect2">
-                <div><img src="index_files/img/ref3.png" alt="img04"></div>
-                <figcaption>
-                    <h3>MiddleWare</h3>
-                    <p style="color: white"> Conectar el poder de las mejores herramientas</p>
-                    <a href="#">Aprender</a>
-                </figcaption>
-            </figure>
-        </li>
-
-        <li onclick="only('Cloud Computing','Todavia no disponible')">
-            <figure class="scrollpoint sp-effect1">
-                <div><img src="index_files/img/ref4.png" alt="img04"></div>
-                <figcaption>
-                    <h3>Cloud Computing</h3>
-                    <p style="color: white"> Administre en la nube </p>
-                    <a href="#">Aprender</a>
-                </figcaption>
-            </figure>
-        </li>
-
-        <li onclick="only('Big Data BI','Todavia no disponible')">
-            <figure class="scrollpoint sp-effect3">
-                <div><img src="index_files/img/ref5.png" alt="img04"></div>
-                <figcaption>
-                    <h3>Big Data Business Intelligence </h3>
-                    <p style="color: white"> Reportes y Analitica de sus datos</p>
-                    <a href="#">Aprender</a>
-                </figcaption>
-            </figure>
-        </li>
-
-        <li onclick="only('Hardware y Soporte','Todavia no disponible')">
-            <figure class="scrollpoint sp-effect2">
-                <div><img src="index_files/img/ref6.png" alt="img04"></div>
-                <figcaption>
-                    <h3>Hardware y Soporte</h3>
-                    <p style="color: white"> Máquinas y Electrónica en el Internet de las cosas </p>
-                    <a href="#">Aprender</a>
-                </figcaption>
-            </figure>
-        </li>
-
-    </ul>
+<section  class="content-first">
     <div class="container">
         <div class="row scrollpoint sp-effect3">
 
         </div>
     </div>
-</div>
-
+</section>
 <!-- ==========================
-    NUMBERS - START
+    NUMBERS - END
 =========================== -->
+<!-- ==========================
+    REFERENCE - START
+=========================== -->
+<section id="references" class="content-second">
+    <h2 class="scrollpoint sp-effect3">Referencias</h2>
+    <p class="scrollpoint sp-effect3">Algunas referencias del aprendizaje y técnicas para las soluciones
+        que realizamos en pequeñas y medianas empresas.</p>
+    <ul class="grid cs-style-4">
+        <li onclick="only('CRM')">
+            <figure class="scrollpoint sp-effect1">
+                <div><img src="index_files/img/ref1.png" alt="img04"></div>
+                <figcaption>
+                    <h3>CRM</h3>
+                    <p style="color: white"> Administración de la Relación con Clientes</p>
+                    <a href="portfolio.html"> Aprender </a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class="scrollpoint sp-effect3">
+                <div><img src="index_files/img/ref2.png" alt="img04"></div>
+                <figcaption>
+                    <h3>Portales</h3>
+                    <p style="color: white"> Comunicación y colaboración en su empresa</p>
+                    <a href="portfolio.html"> Aprender </a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class="scrollpoint sp-effect2">
+                <div><img src="index_files/img/ref3.png" alt="img04"></div>
+                <figcaption>
+                    <h3>MiddleWare</h3>
+                    <p style="color: white"> Conectar el poder de las mejores herramientas</p>
+                    <a href="portfolio.html">Enseñame</a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class="scrollpoint sp-effect1">
+                <div><img src="index_files/img/ref4.png" alt="img04"></div>
+                <figcaption>
+                    <h3>Cloud Computing</h3>
+                    <p style="color: white"> Administre en la nube </p>
+                    <a href="portfolio.html">Enseñame</a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class="scrollpoint sp-effect3">
+                <div><img src="index_files/img/ref5.png" alt="img04"></div>
+                <figcaption>
+                    <h3>Big Data Business Intelligence </h3>
+                    <p style="color: white"> Reportes y Analitica de sus datos</p>
+                    <a href="portfolio.html">Enseñame</a>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class="scrollpoint sp-effect2">
+                <div><img src="index_files/img/ref6.png" alt="img04"></div>
+                <figcaption>
+                    <h3>Hardware y Soporte</h3>
+                    <p style="color: white"> Máquinas y Electrónica en el Internet de las cosas </p>
+                    <a href="portfolio.html">Enseñame</a>
+                </figcaption>
+            </figure>
+        </li>
+
+    </ul>
+
+</section>
+
 <!-- ==========================
     NUMBERS - START
 =========================== -->
@@ -354,17 +408,11 @@
     NUMBERS - END
 =========================== -->
 
-
-<!-- ==========================
-    NUMBERS - END
-=========================== -->
-
 <!-- ==========================
     PRICING - START
 =========================== -->
 <section id="pricing" class="content-second">
     <div class="container">
-        <br>
         <h2 class="scrollpoint sp-effect3">Precio Plan Mensual</h2>
         <p class="scrollpoint sp-effect3">Un precio justo, con resultados justos.</p>
         <div class="row">
@@ -385,7 +433,7 @@
                     </ul>
 
                     <div class="btn-wrapper">
-                        <a href="#" class="btn btn-primary" onclick="only('Plan Standard + Web','Todavia no disponible')">Explorar</a>
+                        <a class="btn btn-primary">Explorar</a>
                     </div>
 
 
@@ -406,7 +454,7 @@
                     </ul>
 
                     <div class="btn-wrapper">
-                        <a href="#" class="btn btn-primary" onclick="only('Plan Standard + Software ','Todavia no disponible')">Explorar</a>
+                        <a class="btn btn-primary">Explorar</a>
                     </div>
 
 
@@ -432,7 +480,7 @@
                     </ul>
 
                     <div class="btn-wrapper">
-                        <a href="#" class="btn btn-primary" onclick="only('Plan Standard + Consultoria','Todavia no disponible')">Explorar</a>
+                        <a class="btn btn-primary">Explorar</a>
                     </div>
 
 
@@ -534,9 +582,9 @@
                     <li><a href="https://cr.linkedin.com/in/aallanrd" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
 
-                <p>© Allan RD 2015 | Todos los derechos reservados <br> Diseño Original de <a href="http://pixelized.cz" target="_blank" class="btn btn-footer">Pixelized Studio</a></p>
+               <p>© Allan RD 2015 | Todos los derechos reservados <br> Diseño Original de <a href="http://pixelized.cz" target="_blank" class="btn btn-footer">Pixelized Studio</a></p>
                 <!--BEGIN ADCHOICES HTML HERE-->
-                <!--END ADCHOICES HTML HERE-->
+                 <!--END ADCHOICES HTML HERE-->
                 <div id="google_translate_element" class="jumbotron" ></div><script type="text/javascript">
                 function googleTranslateElementInit() {
                     new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-69043925-2'}, 'google_translate_element');

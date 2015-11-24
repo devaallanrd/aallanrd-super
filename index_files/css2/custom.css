@@ -239,7 +239,7 @@ h2 {
 	margin:0 0 20px;
 	color:#FFFFFF;
 	font-family: 'Raleway', sans-serif;
-	font-size:56px;
+	font-size:36px;
 }
 
 h3 {
@@ -263,12 +263,22 @@ h4 {
 
 .content-second {
 	background-color:#1c6399;
-	padding:80px 0;
+	padding:60px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 	text-align:center;
 }
+.content-3 {
+	background-color:#1ABC9C;
+	padding:60px 0;
+	color:#FFFFFF;
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
+}
+
+
 
 .scrollpoint {
 	opacity:0;

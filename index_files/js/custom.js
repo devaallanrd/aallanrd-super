@@ -6,14 +6,14 @@
 ------------------------------*/
 
 $(window).scroll(function(){
-	if($(window).scrollTop() > 600) {
-		$('.navbar-default').fadeIn(300);
+	if($(window).scrollTop() > 0) {
+		$('.navbar-hide').fadeIn(300);
 	}
 	else {
-		$('.navbar-default').fadeOut(300);
+		$('.navbar-hide').fadeOut(300);
 	}
 	
-	if($(window).width() > 767) {
+	if($(window).width() > 0) {
 		if ($(this).scrollTop() > 600) {
 			$('.scroll-up').fadeIn(300);
 		} else {
