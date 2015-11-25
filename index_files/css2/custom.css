@@ -237,7 +237,7 @@ p {
 
 h2 {
 	margin:0 0 20px;
-	color:#FFFFFF;
+	color:white;
 	font-family: 'Raleway', sans-serif;
 	font-size:36px;
 }
@@ -269,8 +269,14 @@ h4 {
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 	text-align:center;
 }
+
+.back-client {
+   background-image: url("../img/clients.jpg");
+	color: black;
+}
+
 .content-3 {
-	background-color:#1ABC9C;
+	background-color:#1c6399;
 	padding:60px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -278,7 +284,14 @@ h4 {
 	text-align:center;
 }
 
+.content-4 {
 
+	padding:0px 0;
+	color:black;
+
+
+	text-align:center;
+}
 
 .scrollpoint {
 	opacity:0;
@@ -472,6 +485,7 @@ header {
 	display:inline;
 	padding:0 15px 0 15px;
 	font-size:78px;
+
 }
 
 .brands {
