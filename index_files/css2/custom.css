@@ -274,6 +274,27 @@ h4 {
    background-image: url("../img/clients.jpg");
 	color: black;
 }
+.back-portal {
+	background-image: url("../img/portal.jpg");
+	color: black;
+}
+.back-middle {
+	background-image: url("../img/middle.jpg");
+	color: black;
+}
+.back-cloud {
+	background-image: url("../img/middle.jpg");
+	color: black;
+}
+
+.back-big {
+	background-image: url("../img/portal.jpg");
+	color: black;
+}
+.back-iot {
+	background-image: url("../img/portal.jpg");
+	color: black;
+}
 
 .content-3 {
 	background-color:#1c6399;
