@@ -266,8 +266,13 @@ h4 {
 	padding:60px 0;
 	color:#FFFFFF;
 	border-top:8px solid rgba(0,0,0,0.1);
-	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow:0px 1px 0px rgba(190,255,255,0.8);
 	text-align:center;
+}
+
+.back-city {
+	background-image: url("../img/city-01.jpg");
+	color: black;
 }
 
 .back-client {
@@ -283,7 +288,7 @@ h4 {
 	color: black;
 }
 .back-cloud {
-	background-image: url("../img/middle.jpg");
+	background-image: url("../img/cc.jpg");
 	color: black;
 }
 
@@ -296,6 +301,9 @@ h4 {
 	color: black;
 }
 
+.text-informacion{
+	font-size: 24px;
+}
 .content-3 {
 	background-color:#1c6399;
 	padding:60px 0;
@@ -304,7 +312,9 @@ h4 {
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 	text-align:center;
 }
-
+.transparency{
+	background-color: rgba(255,255,255,0.2);
+}
 .content-4 {
 
 	padding:0px 0;
